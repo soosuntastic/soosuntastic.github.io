@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <header>
+    <h1>Laura Mora Mulero</h1>
+    <h2>Desarrolladora Web</h2>
+  </header>
+  <main>
+    <section role="main">
+      <h3>Conóceme</h3>
+      <article>
+        <h4>Sobre mí</h4>
+        <p>Soy una persona resolutiva, que se preocupa por crear programas de calidad, con código legible y de fácil mantenimiento. </p>
+      </article>
+      <article>
+        <h4>Experiencia</h4>
+        <ul>
+          <li>Mantenimiento de redes sociales</li>
+          <li>Gestión de presupuestos</li>
+          <li>Diseño de merchandising especializado personalizado</li>
+          <li>Liderazgo de pequeños equipos</li>
+        </ul>
+      </article>
+    </section>
+    <section role="complementary">
+      <!--El validador de HTML da 4 errores aquí, al pedirme un "h" por cada article, pero no lo veo necesario-->
+      <h3>FAQ</h3>
+      <article role="region">
+        <input aria-expanded="false" aria-label="Conocimientos" type="button" value="¿Qué destacarías sobre tus conocimientos?" id="conocimientos">
+        <p hidden="hidden" role="textbox" aria-labelledby="conocimientos" id="conocimientos-p">Tengo experiencia en desarrollo de aplicaciones Java, configuración de servidores y me manejo bien con Linux.</p>
+      </article>
+      <article role="region">
+        <input aria-expanded="false" aria-label="Aficiones" type="button" value="¿Cuáles son tus aficiones?" id="aficiones">
+        <p hidden="hidden" role="textbox" aria-labelledby="aficiones" id="aficiones-p">Disfruto en mi tiempo libre de jugar a videojuegos, la lectura y salir con amistades a merendar.</p>
+      </article>
+      <article role="region">
+        <input aria-expanded="false" aria-label="Disponibilidad" type="button" value="¿Cuál es tu disponibilidad?" id="disponibilidad">
+        <p hidden="hidden" role="textbox" aria-labelledby="disponibilidad" id="disponibilidad-p">Puedo trabajar en remoto 100% y en presencial dentro de la provincia de Valencia.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <h3>Contacta conmigo</h3>
+    <a href="https://github.com/soosuntastic">GitHub</a>
+  </footer>
+  <script src="/js/app.js"></script>
+</body>
+
+
+</html>
